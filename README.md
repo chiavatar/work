@@ -1,2 +1,2 @@
 # work
-my first project
+This is my first R project folder
