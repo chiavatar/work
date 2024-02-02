@@ -38,7 +38,7 @@ forest(m2)
 
 ### 95% Confidence interval of Mean Difference
 
-$$\bar{X}_1 - \bar{X}_2 \pm t_{\frac{\alpha}{2}, df} \times \sqrt{\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2}}$$
+$$ \bar{X}_1 - \bar{X}_2 \pm t_{\frac{\alpha}{2}, df} \times \sqrt{\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2}} $$
 
 ``` r
 (mu1-mu2) - qt(0.975,n1+n2-2)*sqrt((sd1^2/n1) + (sd2^2/n2)) 
@@ -54,7 +54,7 @@ $$\bar{X}_1 - \bar{X}_2 \pm t_{\frac{\alpha}{2}, df} \times \sqrt{\frac{s_1^2}{n
 
 ### 95% Confidence interval using Meta-analysis
 
-$$\bar{X}_1 - \bar{X}_2 \pm z_{1-\frac{\alpha}{2}} \times \sqrt{\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2}}$$
+$$ \bar{X}_1 - \bar{X}_2 \pm z_{1-\frac{\alpha}{2}} \times \sqrt{\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2}} $$
 
 ``` r
 (mu1-mu2) - qnorm(0.975)*sqrt((sd1^2/n1) + (sd2^2/n2)) 
